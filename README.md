@@ -262,11 +262,12 @@ ___
 
 ```python
 
-colors = ["red", "blue", "yellow"]
+list_numeros = list((1,2,3,4)) #Ejemplo de creacion de lista
+
+colors = ["red", "blue", "yellow"] #Ejemplo de creacion de lista
 
 colors[1]= "green" #aqui cambiamos a uno de los valores de la lista, aqui se numeran a partir del 0. por lo tanto, el blue cambiara a green
 
-list_numeros = list((1,2,3,4))
 
 m = list(range(1,10)) #lista con numeros del 1 al 9 (siempre un numero antes del 2do que pusimos)
 
@@ -297,3 +298,31 @@ colors.count("red") #cuantas veces se repite el elemento en la lista.
 
 ```
 ___
+
+## Funciones `Tuples/Tupla/Arreglo sin cambios`
+
+```Python
+x = (1, 2, 3) #Ejemplo sencillo de tupla
+y = tuple(1, 2, 3) #Exactamente lo mismo
+Meses = ("Enero", "Febrero", "Marzo", "Abril", ...) #Un ejemplo mas real
+
+z = (1,) #Esta seria la tupla de un solo elemento, si le quitamos la coma, python lo identificara como un simple entero aun estando entre parentecis.
+
+del x #Accion para borrar variables.
+
+#Las tupplas usan los mismos comandos que las listas, solo que los que cambian los elementos no seran aplicables.
+
+```
+___
+
+## Funciones `Set`
+
+Son una lista pero sin indice, no tienen un orden como tal y debemos pedirlos de una manera diferente. Se menciona los elementos dentro de las llaves {}
+
+```python
+
+colors = {"red", "blue", "green"} #Ejemplo de Set
+
+#Utiliza varios comandos de lo de la listas, la diferencia es que no tiene indice y al agregar un nuevo elemento se agrega en cualquier lugar.
+
+```
