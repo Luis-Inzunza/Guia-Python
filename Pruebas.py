@@ -11,3 +11,8 @@ print (b)
 list_numeros = list((1,2,3,4))
 
 print(type(list_numeros))
+
+x= 20
+
+if x < 30:
+    print ("x Es menor a 30")

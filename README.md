@@ -326,3 +326,111 @@ colors = {"red", "blue", "green"} #Ejemplo de Set
 #Utiliza varios comandos de lo de la listas, la diferencia es que no tiene indice y al agregar un nuevo elemento se agrega en cualquier lugar.
 
 ```
+___
+
+## Funciones `dictionaries/diccionario`
+
+```python
+
+product= {
+    "name" : "Book",
+    "cantidad" : 3,      # Ejemplo de un diccionario
+    "precio" : 4.99,
+}
+
+persona= {
+    "nombre" : "Luis",     # Ejemplo de un diccionario
+    "apellido" : "Cruz",
+}
+
+
+print(persona.keys()) #Nos mostrara los datos con los que cuenta el diccionario (los del lado izquierdo de los 2 puntos).
+
+print(persona.items())  #Nos da los valores completos del diccionario, divididos por tuplas.
+
+persona.clean()
+
+#Ejemplo de una lista de productos
+
+productos = [
+
+    {"nombre": "libro", "precio" : 5.99},
+    {"nombre": "pluma", "precio" : 1.99},  #Recordar el coma despues de un diccionario
+    {"nombre": "hojas", "precio" : 0.99}
+    
+    ]
+
+```
+___
+
+
+## `if/else`
+```python
+
+x= 20
+
+if x < 30:    #ejemplo de if
+    print ("x es menor a 30")
+else:
+    print ("x es mayor a 30")
+
+color = "rojo"
+
+if color == "verde":
+    print( "El color es verde")
+
+elif color == "rojo":    #elif es volver a poner de nuevo una condicion, en total tenemos 3 caminos diferentes dependiendo la variable.
+    print( "El color es rojo")
+else:
+    print ("El colo no se identifica")
+```
+___
+
+## `For/ a partir de..`
+```python
+
+#Se quiere imprimir todo lo de la lista comida
+comida = ["manzana", "zanahoria", "lechuga", "pera"]
+
+print(comida[0])
+print(comida[1])      #que pasa si queremos agregar otro mas? se agregara otro print..
+print(comida[2])
+print(comida[3])
+
+#Esto seria muy laborioso hacerlo todas las veces que se registra un nuevo alimento
+#Por lo tanto usaremos el siclo for
+
+for comidas in comida: #esto es mas efectivo
+    print(comida)
+
+```
+___
+
+## `While/mientras que`
+```python
+count = 4
+
+while count <= 10:
+    print(count)
+    count = count + 1
+
+
+```
+
+Recuerda el uso de `break` y `continue` en los siclos.
+___
+
+## Definir una funcion
+
+Funciones que puedes crear para hacer el codigo de una forma mas limpia.
+
+```python
+def hello(name="persona"):
+    print ("hello " + name)
+
+hello("Luis") #En esta funcion diria "hello Luis"
+hello() #Al no tener valor para name, se usara la definida en la funcion, esto entonces diria "hello persona".
+```
+___
+
+## Modulos 
