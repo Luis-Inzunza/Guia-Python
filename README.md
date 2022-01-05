@@ -434,3 +434,5 @@ hello() #Al no tener valor para name, se usara la definida en la funcion, esto e
 ___
 
 ## Modulos 
+
+Hay que saber que en internet hay muchos programadores que publican modulos con ciertas funciones para este tipo de codigo y demas tipos de lenguaje.
