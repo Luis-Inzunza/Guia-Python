@@ -1,18 +1,14 @@
-print("hello world")
-my_string = "hello world"
+distancia = input("¿Cuanto es la distancia de tu ciudad a la otra que gustas ir? anotalo en km ")
 
-print(my_string.replace("hello", "bye"))
+velocidad = input("¿Cuanta es la velocidad constante que piensas ir? anotalo en km/h ")
 
-#Ocupas poner siempre la definicion de la variable, si no, se tomara como string
-a = input ("edad")
-b = int(a) + 5
-print (b)
+tiempo = float(distancia) / float(velocidad) 
 
-list_numeros = list((1,2,3,4))
+punto = 0 
+indice= 0
 
-print(type(list_numeros))
+while str(punto) != ".":
+      indice = indice + 1
+      punto= str(tiempo)[indice]
+      decimal = str(tiempo)[indice + 1]
 
-x= 20
-
-if x < 30:
-    print ("x Es menor a 30")
