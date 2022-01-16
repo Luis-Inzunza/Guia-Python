@@ -6,9 +6,8 @@ tiempo = float(distancia) / float(velocidad)
 
 punto = 0 
 indice= 0
-
 while str(punto) != ".":
       indice = indice + 1
       punto= str(tiempo)[indice]
-      decimal = str(tiempo)[indice + 1]
-
+      
+print("hello")
