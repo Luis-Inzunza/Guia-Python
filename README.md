@@ -9,4 +9,4 @@ Sean proactivos y buenas personas, compartamos nuesttro conocimiento y creemos u
 
 * [Lenguaje java](Java/Inicio_java.md)
 
-* [Lenguaje C y C++](c++,c/Inicio_c_c++.md)
+* [Lenguaje C++](c++/Inicio_c++.md)
