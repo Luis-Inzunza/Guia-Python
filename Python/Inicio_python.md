@@ -31,7 +31,7 @@ Aqui se escribiran funciones basicas para su completo uso, mejor dichas como pal
 
 * [Funciones `dictionaries/diccionario`](Subtemas/Funciones_diccionarios.md)
 
-* [if/else](Subtemas/if_else.md)
+* [if/else](Subtemas/If_else.md)
 
 * [While/mientras tanto](Subtemas/While_mientras_tanto.md)
 
