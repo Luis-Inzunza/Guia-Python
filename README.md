@@ -5,12 +5,14 @@ Deseo que esto sea de su ayuda y tengan éxito en la vida.
 
 Sean proactivos y compartamos nuestro conocimiento y creemos una sociedad mejor en el mundo de la tecnología.
 
-* [Python](Python/Inicio_python.md)
+* [Python](Lenguajes/Python/Inicio_python.md)
 
-* [Java](Java/Inicio_java.md)
+* [Java](Lenguajes/Java/Inicio_java.md)
 
-* [C++](c++/Inicio_c++.md)
+* [C++](Lenguajes/c++/Inicio_c++.md)
 
-* [JSON](JSON/Inicio_Json.md)
+* [JSON](Lenguajes/JSON/Inicio_Json.md)
 
-* [APEX](APEX/Inicio_APEX.md) (lenguaje que se usa en SalesForces)
+* [APEX](Lenguajes/APEX/Inicio_APEX.md) (lenguaje que se usa en SalesForces)
+
+* [HTML](Lenguajes/HTML/Inicio_HTML.md)
